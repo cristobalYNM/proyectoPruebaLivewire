@@ -6,16 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 
-    @livewireStyles
+    @livewireStyles <!--Estas lineas deben ser agregadas al instalar Livewire-->
 
 </head>
 <body>
-    
+
     <div>
-        @yield('content')
+        @yield('content') <!--Cargando (first-component.blade.php)-->
     </div>
 
-    @livewireScripts
+    @livewireScripts <!--Estas lineas deben ser agregadas al instalar Livewire-->
 
 </body>
 </html>

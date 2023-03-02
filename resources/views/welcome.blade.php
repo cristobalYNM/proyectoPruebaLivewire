@@ -2,6 +2,6 @@
 
 @section('content')
 
-@livewire('first-component')
+@livewire('first-component') 
 
 @endsection

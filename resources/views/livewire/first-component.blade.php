@@ -2,7 +2,7 @@
       <!--El select paises-->
    <div class="col-sm-3">
         <label>Paises</label>
-        <select wire:model='selectCountries' id="country_id">
+        <select wire:model='selectCountries'>
             <option value="">pais</option>
             @foreach($country as $Country)
             <option value="{{$Country->id}}">{{$Country->name}}</option>
@@ -13,7 +13,7 @@
    @if(!is_null($cities))
         <div class="col-sm-3">
             <label>Ciudades</label>
-            <select wire:model='selectselectCities'>
+            <select wire:model='selectCities'>
                 <option value="">Ciudad</option>
                 @foreach($cities as $City)
                 <option value="{{$City->id}}">{{$City->name}}</option>
