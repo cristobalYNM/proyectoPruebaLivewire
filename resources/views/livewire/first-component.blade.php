@@ -1,4 +1,5 @@
 <div>
+      <!--El select paises-->
    <div class="col-sm-3">
         <label>Paises</label>
         <select wire:model='selectCountries' id="country_id">
@@ -8,6 +9,7 @@
             @endforeach
         </select>
    </div>
+   <!--El select ciudades solo se abrira si no es nulo-->
    @if(!is_null($cities))
         <div class="col-sm-3">
             <label>Ciudades</label>
